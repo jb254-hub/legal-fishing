@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>TideLedger — Fish Price Intelligence</title>
+<title>TideLedger — Fish Price Intelligence (Kenya)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -286,7 +286,7 @@
       </svg>
       <div>
         <h1>TideLedger</h1>
-        <p>Fish price intelligence</p>
+        <p>Fish price intelligence · Kenya</p>
       </div>
     </div>
 
@@ -443,7 +443,7 @@
           <div class="tooltip" id="tip"></div>
         </div>
         <div class="chart-legend">
-          <span><i class="ln"></i> Market price</span>
+          <span><i class="ln"></i> Market price (KES)</span>
           <span><i class="ln dashed"></i> 7-day average</span>
         </div>
       </div>
@@ -463,8 +463,8 @@
     <section class="card" style="margin-bottom:16px">
       <div class="card-head">
         <div>
-          <h3>Price board</h3>
-          <p class="sub">Live quotes per kg · updated <span id="tblTime">—</span></p>
+          <h3>Price board (KES / kg)</h3>
+          <p class="sub">Live quotes · updated <span id="tblTime">—</span></p>
         </div>
         <div class="chips" id="chips">
           <button class="chip active" data-cat="all">All</button>
@@ -506,9 +506,9 @@
             <svg viewBox="0 0 24 24"><path d="M3 16.5l5.5-5.5 3.5 3.5L21 5.5"/><path d="M21 5.5h-5.5M21 5.5V11"/></svg>
           </div>
           <div>
-            <div class="feed-title">Snapper supply tightening at North Quay</div>
-            <div class="feed-desc">Landings are down 14% week-on-week. Prices typically firm 3–6% within 48 hours.</div>
-            <div class="feed-time">32 minutes ago</div>
+            <div class="feed-title">Tilapia supply tightening at Lake Victoria</div>
+            <div class="feed-desc">Landings are down 12% week-on-week. Prices typically firm 4–7% within 48 hours.</div>
+            <div class="feed-time">28 minutes ago</div>
           </div>
         </div>
         <div class="feed-item">
@@ -516,8 +516,8 @@
             <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="3.2"/></svg>
           </div>
           <div>
-            <div class="feed-title">Weekend demand forecast: +11%</div>
-            <div class="feed-desc">Higher hotel and restaurant orders expected Friday–Sunday for snapper, prawns and tilapia.</div>
+            <div class="feed-title">Weekend demand forecast: +13%</div>
+            <div class="feed-desc">Higher hotel and restaurant orders expected Friday–Sunday for tilapia, prawns and Nile perch.</div>
             <div class="feed-time">1 hour ago</div>
           </div>
         </div>
@@ -526,8 +526,8 @@
             <svg viewBox="0 0 24 24"><path d="M12 2v20M17 5.5c0-1.9-2.2-3.5-5-3.5S7 3.6 7 5.5s2.2 3 5 3.5 5 1.6 5 3.5-2.2 3.5-5 3.5-5-1.6-5-3.5"/></svg>
           </div>
           <div>
-            <div class="feed-title">Freight surcharge up 3% on marine landings</div>
-            <div class="feed-desc">Fuel adjustment applies to all marine deliveries from tomorrow — factor into your margins.</div>
+            <div class="feed-title">Fuel surcharge up 3% on marine landings</div>
+            <div class="feed-desc">Applies to all marine deliveries from tomorrow — factor into your margins.</div>
             <div class="feed-time">3 hours ago</div>
           </div>
         </div>
@@ -552,22 +552,22 @@
         </div>
         <div class="alert-row">
           <div class="alert-txt">
-            <div class="alert-title">Red Snapper above $9.20 / kg</div>
-            <div class="alert-sub">Current <span id="alertSnapperPrice">$8.90</span> · <span id="alertSnapperGap">3.4%</span> away</div>
+            <div class="alert-title">Red Snapper above KES 1,200 / kg</div>
+            <div class="alert-sub">Current <span id="alertSnapperPrice">KES 1,150</span> · <span id="alertSnapperGap">4.2%</span> away</div>
           </div>
           <label class="switch"><input type="checkbox" checked data-alert="snapper"><span></span></label>
         </div>
         <div class="alert-row">
           <div class="alert-txt">
-            <div class="alert-title">Mackerel below $3.10 / kg</div>
-            <div class="alert-sub">Current <span id="alertMackerelPrice">$3.25</span> · restock trigger</div>
+            <div class="alert-title">Mackerel below KES 420 / kg</div>
+            <div class="alert-sub">Current <span id="alertMackerelPrice">KES 440</span> · restock trigger</div>
           </div>
           <label class="switch"><input type="checkbox" checked data-alert="mackerel"><span></span></label>
         </div>
         <div class="alert-row">
           <div class="alert-txt">
-            <div class="alert-title">Tiger Prawns above $16.00 / kg</div>
-            <div class="alert-sub">Current <span id="alertPrawnsPrice">$15.20</span> · hold position</div>
+            <div class="alert-title">Tiger Prawns above KES 2,100 / kg</div>
+            <div class="alert-sub">Current <span id="alertPrawnsPrice">KES 1,980</span> · hold position</div>
           </div>
           <label class="switch"><input type="checkbox" data-alert="prawns"><span></span></label>
         </div>
@@ -582,7 +582,7 @@
     </section>
 
     <div class="foot-note">
-      <span>TideLedger · Prices are indicative market quotes, not a trading commitment.</span>
+      <span>TideLedger · Prices are indicative market quotes in KES, not a trading commitment.</span>
       <span id="footTime">—</span>
     </div>
   </main>
@@ -600,12 +600,12 @@
   /* =========================================================
      Utilities
      ========================================================= */
-  const money = v => "$" + v.toFixed(2);
+  const money = v => "KES " + v.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   const pct   = v => (v >= 0 ? "+" : "") + (v * 100).toFixed(1) + "%";
   const avg   = a => a.reduce((s, x) => s + x, 0) / a.length;
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
-  const fmtDate = d => d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-  const fmtTime = d => d.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit", hour12: false });
+  const fmtDate = d => d.toLocaleDateString("en-KE", { month: "short", day: "numeric" });
+  const fmtTime = d => d.toLocaleTimeString("en-KE", { hour: "2-digit", minute: "2-digit", hour12: false });
 
   function hash(str){
     let h = 2166136261;
@@ -634,18 +634,19 @@
   }
 
   /* =========================================================
-     Data model
+     Data model — Kenyan fish, prices in KES
      ========================================================= */
   const FISH = [
-    { id:"tilapia",  name:"Tilapia",          cat:"Freshwater", base:4.35,  vol:0.030, drift:0.0012, stock:640  },
-    { id:"nileperch",name:"Nile Perch",       cat:"Freshwater", base:7.80,  vol:0.026, drift:0.0008, stock:410  },
-    { id:"salmon",   name:"Atlantic Salmon",  cat:"Marine",     base:12.40, vol:0.035, drift:0.0015, stock:180  },
-    { id:"tuna",     name:"Yellowfin Tuna",   cat:"Marine",     base:9.65,  vol:0.042, drift:-0.0009,stock:260  },
-    { id:"mackerel", name:"Mackerel",         cat:"Marine",     base:3.25,  vol:0.045, drift:0.0004, stock:930  },
-    { id:"sardine",  name:"Sardine",          cat:"Marine",     base:1.95,  vol:0.055, drift:-0.0012,stock:1200 },
-    { id:"snapper",  name:"Red Snapper",      cat:"Marine",     base:8.90,  vol:0.038, drift:0.0022, stock:320  },
-    { id:"catfish",  name:"Catfish",          cat:"Freshwater", base:3.85,  vol:0.033, drift:0.0006, stock:540  },
-    { id:"prawns",   name:"Tiger Prawns",     cat:"Shellfish",  base:15.20, vol:0.040, drift:0.0018, stock:120  }
+    { id:"tilapia",   name:"Tilapia",           cat:"Freshwater", base:280,  vol:0.030, drift:0.0012, stock:640  },
+    { id:"nileperch", name:"Nile Perch",        cat:"Freshwater", base:520,  vol:0.026, drift:0.0008, stock:410  },
+    { id:"catfish",   name:"Catfish",           cat:"Freshwater", base:310,  vol:0.033, drift:0.0006, stock:540  },
+    { id:"sangara",   name:"Sangara",           cat:"Freshwater", base:340,  vol:0.028, drift:0.0010, stock:380  },
+    { id:"salmon",    name:"Atlantic Salmon",   cat:"Marine",     base:980,  vol:0.035, drift:0.0015, stock:180  },
+    { id:"tuna",      name:"Yellowfin Tuna",    cat:"Marine",     base:750,  vol:0.042, drift:-0.0009,stock:260  },
+    { id:"mackerel",  name:"Mackerel",          cat:"Marine",     base:440,  vol:0.045, drift:0.0004, stock:930  },
+    { id:"sardine",   name:"Sardine (Omena)",   cat:"Marine",     base:160,  vol:0.055, drift:-0.0012,stock:1200 },
+    { id:"snapper",   name:"Red Snapper",       cat:"Marine",     base:1150, vol:0.038, drift:0.0022, stock:320  },
+    { id:"prawns",    name:"Tiger Prawns",      cat:"Shellfish",  base:1980, vol:0.040, drift:0.0018, stock:120  }
   ];
 
   const DAYS = 32;
@@ -759,7 +760,7 @@
     const tip = document.getElementById("tip");
     const W = Math.max(320, host.clientWidth);
     const H = 272;
-    const padL = 56, padR = 20, padT = 16, padB = 30;
+    const padL = 62, padR = 20, padT = 16, padB = 30;
     const plotW = W - padL - padR;
     const plotH = H - padT - padB;
 
@@ -920,8 +921,8 @@
     // Inventory value
     const inv = FISH.reduce((s, f) => s + f.stock * DATA[f.id].series[DATA[f.id].series.length - 1], 0);
     const totalKg = FISH.reduce((s, f) => s + f.stock, 0);
-    document.getElementById("kpiInv").textContent = "$" + Math.round(inv).toLocaleString("en-US");
-    document.getElementById("kpiInvSub").textContent = totalKg.toLocaleString("en-US") + " kg across " + FISH.length + " species";
+    document.getElementById("kpiInv").textContent = money(inv);
+    document.getElementById("kpiInvSub").textContent = totalKg.toLocaleString("en-KE") + " kg across " + FISH.length + " species";
 
     // Active signals
     const active = all.filter(m => m.cls !== "hold");
@@ -1002,8 +1003,8 @@
             <td class="r"><span class="price num">${money(m.last)}</span></td>
             <td class="r"><span class="delta ${dCls} num" style="font-size:12.5px">${(m.chg >= 0 ? "▲ " : "▼ ") + Math.abs(m.chg * 100).toFixed(1)}%</span></td>
             <td class="c">${spark}</td>
-            <td class="r"><span class="stock num">${f.stock.toLocaleString("en-US")} <small>kg</small></span></td>
-            <td class="r"><span class="num" style="color:#475467">$${Math.round(value).toLocaleString("en-US")}</span></td>
+            <td class="r"><span class="stock num">${f.stock.toLocaleString("en-KE")} <small>kg</small></span></td>
+            <td class="r"><span class="num" style="color:#475467">${money(value)}</span></td>
             <td class="c"><span class="badge ${m.cls}">${label}</span></td>
             <td class="r"><span class="chev">›</span></td>
           </tr>`;
@@ -1020,7 +1021,7 @@
   function renderChartSub(){
     const f = DATA[selectedFish];
     document.getElementById("chartSub").textContent =
-      `${f.name} · last ${chartDays} days · per kg`;
+      `${f.name} · last ${chartDays} days · KES per kg`;
   }
 
   function renderAlertPrices(){
@@ -1030,7 +1031,7 @@
     const snapEl = document.getElementById("alertSnapperPrice");
     if (snapEl) snapEl.textContent = money(snap.last);
     const snapGapEl = document.getElementById("alertSnapperGap");
-    if (snapGapEl) snapGapEl.textContent = ((9.20 - snap.last) / 9.20 * 100).toFixed(1) + "%";
+    if (snapGapEl) snapGapEl.textContent = ((1200 - snap.last) / 1200 * 100).toFixed(1) + "%";
     const mackEl = document.getElementById("alertMackerelPrice");
     if (mackEl) mackEl.textContent = money(mack.last);
     const prawnEl = document.getElementById("alertPrawnsPrice");
@@ -1186,7 +1187,7 @@
 
   // Date line
   document.getElementById("dateLine").textContent =
-    new Date().toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
+    new Date().toLocaleDateString("en-KE", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
 
   // Responsive redraw
   let rt;
